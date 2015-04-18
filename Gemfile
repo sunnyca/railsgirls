@@ -3,8 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
+# *** Use sqlite3 as the database for Active Record - *** AARON AND I DELETED SQLITE3 BECAUSE HEROKU DOESN'T LIKE IT BECAUSE IT'S JUST A FILE AND IT WANTS A REAL DATABASE LIKE MYSQL. 4.17.15.
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
